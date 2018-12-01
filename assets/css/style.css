@@ -1,0 +1,85 @@
+.crystal-image {
+    height: 150px;
+    width: 150px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.jumbotron {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.score-target {
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.score-actual {
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.crystals-used-container {
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    /* background-color: rgb(192, 192, 192); */
+    font-family: "Courier New",Courier,monospace;
+}
+
+#win-loss {
+    border: 2px solid;
+    float: left;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.crystals-display {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#crystal-score {
+    color: red;
+}
+
+#target-number {
+    color: red;
+}
+
+#crystals-used {
+    color: red;
+}
+
+#win-loss {
+    background-color: rgb(169, 179, 187);
+}
+
+.instructions {
+    border: 1px solid grey;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.main-game {
+    /* border: 1px solid grey; */
+}

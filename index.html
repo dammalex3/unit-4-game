@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Crystal Guess Game</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8 col-centered instructions text-center">
+                <h4><b>Instructions:</b></h4><span>Each crystal has a hidden value. Select the crystals to try to get "Your Crystal Score" to match the "Target Number".</span>
+                <br>
+                <br>
+                <p><b>BONUS: </b> Try to use as few crystals as possible to get the target number.</p>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container-fluid main-game">
+                <div class="row">
+                    <div class="col-md-5 score-target col-centered">
+                        <h3 id="target-number-label">Target Number: <span id="target-number"></span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 score-actual col-centered">
+                        <h3 id="crystal-score-label">Your Crystal Score: <span id="crystal-score"></span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 crystals-used-container col-centered">
+                        <h3 id="crystal-used-label">Crystals Used: <span id="crystals-used"></span></h2>
+                    </div>
+                </div>
+                <div class="row crystals-display">
+                    <div class="col-md-8 col-centered text-center">
+                        <img id="blue-crystal" class="crystal-image" src="../unit-4-game/assets/images/sapphire_PNG12.png" data-crystalvalue="">
+                        <img id="diamond-crystal" class="crystal-image" src="../unit-4-game/assets/images/diamonds-clipart-5.png" data-crystalvalue="">
+                        <img id="red-crystal" class="crystal-image" src="../unit-4-game/assets/images/diamonds-clipart-art-work-9.png" data-crystalvalue="">
+                        <img id="purple-crystal" class="crystal-image" src="../unit-4-game/assets/images/diamonds-clipart-amethyst-1.png" data-crystalvalue="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-centered text-center" id="win-loss">
+                    <h2 id="wins-display"></h2>
+                    <h2 id="losses-display"></h2>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--Javascript-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
