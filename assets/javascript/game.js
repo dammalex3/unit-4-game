@@ -24,7 +24,7 @@ $(document).ready(function() {
         assignCrystalValues();
 
         //set the target number and display it
-        targetNum = Math.floor((Math.random() * 101) + 19);
+        targetNum = Math.floor((Math.random() * 102) + 19);
         $("#target-number").text(targetNum);
 
         //reset the user crystal score 
